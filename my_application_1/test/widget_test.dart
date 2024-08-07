@@ -1,15 +1,7 @@
-void main() {
-  // Statically Typed
-  // Wajib mendefinisikan variabel sebelum digunakan
-  var nama = "Raihan Zhaky";
-  print(nama);
-  // Type Inference
-  // Tidak perlu menjelaskan tipe data nya lagi
-  var umur = 23;
-  print(umur);
-  // String Interpolation
-  // Sama kayak String Templates
-  print("Nama saya adalah $nama dan umur saya adalah $umur");
+import './12_inheritance_abstract_tes.dart';
 
-  
+void main() {
+  Hewan hewan1 = Hewan(nama: "kucing", berat: 10, kategori: "Mamalia", jumlahKaki: 4);
+
+  print("hewan 1 adalah ${hewan1.kategori} bernama ${hewan1.nama} dengan berat ${hewan1.berat} dengan kaki berjumlah");
 }
